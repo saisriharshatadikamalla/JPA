@@ -1,0 +1,6 @@
+Create a Place class and established the many to many relationship from both sides . 
+Allow the JPA to create Join table .(We can provide this extrenally as well.)
+Added a methos to repository to find all the contacts based on keyword. Used a native query to do this.
+Added a addContact and delete contact method to controller .Provide requiured status codes in output.
+Did a very basic exception handlind in case there a exceptions as we defined unique key on email column.
+Defined a unique column email in contact class.
